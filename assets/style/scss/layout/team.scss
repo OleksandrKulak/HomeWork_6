@@ -1,0 +1,61 @@
+.team {
+	height: 746px;
+	background-color: #fff;
+
+	.container-line {
+		height: 100%;
+
+		.box {
+
+			.popover {
+				margin-bottom: 70px;
+
+				&:after{
+						content: "03";
+				}
+			}
+		}
+
+		.team-list {
+			display: flex;
+			justify-content: space-between;
+
+			.member {
+				padding-right: 30px;
+				text-align: center;
+
+				.cover {
+					width: 270px;
+					height: 300px;
+					margin: 0 auto 29px;
+
+					img {
+						width: 100%;
+						height: auto;
+					}
+				}
+
+				.member-name {
+					margin-bottom: 20px;
+					line-height: 1.71px;
+					letter-spacing: 0.84px;
+					text-align: left;
+					font-weight: 500;
+					font-family: "Playfair Display", sans-serif;
+					font-size: 21px;
+					color: #111;
+				}
+
+				.member-description {
+					line-height: 1.71;
+					letter-spacing: 0.56px;
+					font-size: 14px;
+					text-align: left;
+					font-family: "Open Sans", sans-serif;
+					color: #666;
+				}
+				
+			}
+		}
+	}
+}

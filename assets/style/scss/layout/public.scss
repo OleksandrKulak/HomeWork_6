@@ -1,0 +1,137 @@
+.public {
+	height: 1008px;
+
+	.container {
+
+		.container-line {
+			height: 100%;
+
+			.box {
+
+				.popover {
+					margin-bottom: 70px;
+
+					&:after{
+						content: "05";
+					}
+				}
+
+				.inform {
+					width: 1171px;
+					height: 634px;
+					justify-content: space-between;
+					display: flex;
+
+					.aside-info {
+						display: block;
+						width: 370px;
+						height: 631px;
+						border-bottom: 3px solid #e8bf5d;
+
+						.cover-public {
+							padding: 0 0 30px;
+							width: 370px;
+							height: 299px;
+
+							img {
+								width: 100%;
+								height: 100%;
+							}
+						}
+
+						.title-public {
+							font-size: 21px;
+							line-height: 1.48;
+							letter-spacing: 0.84px;
+							text-align: left;
+							font-family: "Playfair Display", sans-serif;
+							color: #111;
+						}
+
+						.row-autor {
+							font-size: 16px;
+							line-height: 1.5;
+							letter-spacing: 0.64px;
+							font-family: "Open Sans", sans-serif;
+							color: #111;
+
+							.by {
+								font-style: italic;
+								color: #666;
+							}
+
+							.date {
+								float: right;
+								font-style: italic;
+								color: #666;
+							}
+						}
+
+						.article-txt {
+							margin: 38px 0 10px;
+							line-height: 2.21;
+							letter-spacing: 0.56px;
+							text-align: left;
+							font-size: 14px;
+							font-family: "Open Sans", sans-serif;
+							color: #666;
+						}
+
+						.row-user {
+							display: flex;
+							justify-content: space-between;
+							margin: 21px 0;
+
+							.btn-comment {
+								position: relative;
+								margin-left: 25px;
+								border: none;
+								line-height: 1.94;
+								letter-spacing: 0.64px;
+								text-align: right;
+								font-size: 16px;
+								font-family: "Open Sans", sans-serif;
+								color: #111;
+								cursor: pointer;
+								background-color: white;
+
+								&:before {
+									content: '';
+									position: absolute;
+									width: 20px;
+									height: 16px;
+									top: 10px;
+									transform: translateX(-150%);
+									background:no-repeat center / cover url(../../img/comments-solid.svg);
+								}
+							}
+
+							.btn-share {
+								position: relative;
+								border: none;
+								line-height: 1.94;
+								letter-spacing: 0.64px;
+								text-align: right;
+								font-size: 16px;
+								font-family: "Open Sans", sans-serif;
+								color: #111;
+								cursor: pointer;
+								background-color: white;
+
+								&:before {
+									content: '';
+									position: absolute;
+									width: 16px;
+									height: 16px;
+									top: 10px;
+									transform: translateX(-150%);
+									background:no-repeat center / cover url(../../img/share-solid.svg);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}	
+}

@@ -1,0 +1,102 @@
+.about {
+	background-color: #fff;
+
+	.container {
+
+		.container-line {
+
+			.box {
+
+				.popover {
+
+					&:after{
+						content: "01";
+					}
+				}
+				
+				.submit {
+					padding: 70px 0 0 0;
+					justify-content: space-between;
+					display: flex;
+					margin: 0px 0px 0px 0px;
+					height: 243px;
+					width: 1088px;
+					font-family: "Open Sans", sans-serif;
+
+					.left-side{
+						width: 560px;
+
+						.title {
+							padding: 0 0 30px;
+							color: #111;
+						}
+
+						.story {
+							display: block;
+
+							.date {
+								display: flex;
+								color: #111;
+
+								.date_1 {
+									width: 69px;
+									height: 15px;
+									font-size: 21px;
+		  							font-weight: bold;
+		  							line-height: 1.48;
+		  							letter-spacing: 0.84px;
+		  							text-align: left;
+								}
+
+								.txt-1 {
+									width: 430px;
+									padding: 0 0 40px 30px;
+									font-size: 16px;
+									line-height: 1.31;
+		  							letter-spacing: 0.64px;
+		  							text-align: left;
+								}
+
+								.txt-2 {
+									width: 449px;
+									padding: 0 0 30px 30px;
+									font-size: 16px;
+									line-height: 1.31;
+		  							letter-spacing: 0.64px;
+		  							text-align: left;
+								}
+
+								.txt-3 {
+									width: 430px;
+									padding: 0 0 0 30px;
+									font-size: 16px;
+									line-height: 1.31;
+		  							letter-spacing: 0.64px;
+		  							text-align: left;
+								}
+							}
+						}
+					}
+
+					.right-side {
+						width: 488px;
+						height: 225px;
+
+						.title {
+							padding: 0 0 25px;
+							color: #111;
+						}
+
+						.example {
+							font-size: 14px;
+							line-height: 2.21;
+							letter-spacing: 0.56px;
+							text-align: left;
+							color: #666;
+						}
+					}
+				}
+			}
+		}
+	}	
+}
