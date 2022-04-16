@@ -8,97 +8,84 @@
 
 	.container {
 		background-color: #111;
-		
-		.container-line {
-			height: 100%;
 
-			.bg-lines {
-				
-				span {
-					background-color: #fff;
-				}
+		.popover {
+
+			&:after {
+				color: #fff;
 			}
 
-			.box {
+			.title-badge {
+				color: #fff;
+			}
 
-				.popover {
+			.description {
+				color: #b9b9b9;
+			}
+		}
 
-					&:after{
-						content: "02";
-						color: #fff;
-					}
+		.service-block {
+		margin: 0 auto;
+		width: 1007px;
+   	 	height: 355px;
+		padding: 101px 0 0 110px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		row-gap: 72px;
+    	column-gap: 115px;
+		justify-content: center;
 
-					.title-badge {
-						color: #fff;
-					}
+			.service-grid {
+				display: flex;
+				width: 446px;
+				height: 138px;
 
-					.description {
-						color: #b9b9b9;
-					}
+				img {
+					margin: 8px 0;
+					height: 100%;
+					width: auto;	
 				}
 
-				.container-gr {
-				margin: 0 auto;
-				width: 1007px;
-		   	 	height: 355px;
-				padding: 101px 0 0 110px;
-				display: grid;
-				grid-template-columns: repeat(2, 1fr);
-				grid-template-rows: repeat(2, 1fr);
-				row-gap: 72px;
-		    	column-gap: 115px;
-				justify-content: center;
+				.logo-service {
+					width: 58px;
+					height: 38px;
+				}
 
-					.service-grid {
-						display: flex;
-						width: 446px;
-						height: 138px;
+				.logo-labour {
+					width: 42px;
+					height: 42px;
+				}
 
-						img {
-							margin: 8px 0;	
-						}
+				.logo-cyber {
+					padding-left: 10px;
+					width: 49px;
+					height: 43px;
+				}
 
-						.logo-service {
-							width: 58px;
-							height: 38px;
-						}
+				.logo-estate {
+					width: 42px;
+					height: 33px;
+				}
 
-						.logo-labour {
-							width: 42px;
-							height: 42px;
-						}
+				.services {
+					margin-left: 28px;
 
-						.logo-cyber {
-							padding-left: 10px;
-							width: 49px;
-							height: 43px;
-						}
+					.title {
+						color: #fff;
+					}
 
-						.logo-estate {
-							width: 42px;
-							height: 33px;
-						}
-
-						.submit {
-							margin-left: 28px;
-
-							.title {
-								color: #fff;
-							}
-
-							.text {
-								padding: 13px 0 28px;
-								font-size: 14px;
-								line-height: 2.21;
-								letter-spacing: 0.56px;
-							    text-align: left;
-								font-family: "Open Sans", sans-serif;
-								color: #fff;
-							}
-						}	
+					.service-description {
+						padding: 13px 0 28px;
+						font-size: 14px;
+						line-height: 2.21;
+						letter-spacing: 0.56px;
+					    text-align: left;
+						font-family: "Open Sans", sans-serif;
+						color: #fff;
 					}
 				}	
-			}		
-		}
+			}
+		}				
 	}	
 }

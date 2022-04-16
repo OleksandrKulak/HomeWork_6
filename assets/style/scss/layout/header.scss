@@ -1,17 +1,17 @@
 .main-header {
-	padding: 48px 0 44px;
+	padding: 38px 0 34px;
 	margin: 0 auto;
 	background-color: #fff;
 
 	.container {
+		padding: 0 0 0;
 
-		.wrapper-header{
-			padding: 0 377px 0 373px;
+		.wrapper-header {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
 
-			.main-logo{
+			.main-logo {
 				width: 168px;
 				font-size: 25px;
 				font-weight: bold;
@@ -32,18 +32,28 @@
 				gap: 40px;
 
 				.nav-item {
+					position: relative;
 					font-size: 14px;
 					text-transform: uppercase;
 					line-height: 3.21;
 	  				letter-spacing: 0.56px;
 					text-align: right;
-					font-weight: bold;
+					font-weight: 500;
 					font-family: "Open Sans", sans-serif;
 					color: #111;
 
-					a:hover { 
-	    				text-decoration: underline;
-	    				color: #e8bf5d;
+					&:hover { 
+						
+	    				&:after {
+	    					content: '';
+	    					display: block;
+	    					position: absolute;
+	    					bottom: 0;
+	    					left: 0;
+	    					right: 0;
+	    					height: 5px;
+	    					background-color:  #e8bf5d;
+	    				}
 	    			}	
 				}
 			}	

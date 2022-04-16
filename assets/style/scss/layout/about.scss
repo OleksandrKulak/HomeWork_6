@@ -1,102 +1,86 @@
 .about {
 	background-color: #fff;
 
-	.container {
+	.about-content {
+		padding: 70px 0 0 0;
+		justify-content: space-between;
+		display: flex;
+		margin: 0px 0px 0px 0px;
+		height: 243px;
+		width: 1088px;
+		font-family: "Open Sans", sans-serif;
 
-		.container-line {
+		.history-block{
+			width: 560px;
 
-			.box {
+			.title {
+				padding: 0 0 30px;
+				color: #111;
+			}
 
-				.popover {
+			.history-list {
+				display: block;
 
-					&:after{
-						content: "01";
-					}
-				}
-				
-				.submit {
-					padding: 70px 0 0 0;
-					justify-content: space-between;
+				.history-item {
 					display: flex;
-					margin: 0px 0px 0px 0px;
-					height: 243px;
-					width: 1088px;
-					font-family: "Open Sans", sans-serif;
+					color: #111;
 
-					.left-side{
-						width: 560px;
-
-						.title {
-							padding: 0 0 30px;
-							color: #111;
-						}
-
-						.story {
-							display: block;
-
-							.date {
-								display: flex;
-								color: #111;
-
-								.date_1 {
-									width: 69px;
-									height: 15px;
-									font-size: 21px;
-		  							font-weight: bold;
-		  							line-height: 1.48;
-		  							letter-spacing: 0.84px;
-		  							text-align: left;
-								}
-
-								.txt-1 {
-									width: 430px;
-									padding: 0 0 40px 30px;
-									font-size: 16px;
-									line-height: 1.31;
-		  							letter-spacing: 0.64px;
-		  							text-align: left;
-								}
-
-								.txt-2 {
-									width: 449px;
-									padding: 0 0 30px 30px;
-									font-size: 16px;
-									line-height: 1.31;
-		  							letter-spacing: 0.64px;
-		  							text-align: left;
-								}
-
-								.txt-3 {
-									width: 430px;
-									padding: 0 0 0 30px;
-									font-size: 16px;
-									line-height: 1.31;
-		  							letter-spacing: 0.64px;
-		  							text-align: left;
-								}
-							}
-						}
+					.year-item {
+						width: 69px;
+						height: 15px;
+						font-size: 21px;
+						font-weight: bold;
+						line-height: 1.48;
+						letter-spacing: 0.84px;
+						text-align: left;
 					}
 
-					.right-side {
-						width: 488px;
-						height: 225px;
+					.history-description-1 {
+						width: 430px;
+						padding: 0 0 40px 30px;
+						font-size: 16px;
+						line-height: 1.31;
+						letter-spacing: 0.64px;
+						text-align: left;
+					}
 
-						.title {
-							padding: 0 0 25px;
-							color: #111;
-						}
+					.history-description-2 {
+						width: 449px;
+						padding: 0 0 30px 30px;
+						font-size: 16px;
+						line-height: 1.31;
+						letter-spacing: 0.64px;
+						text-align: left;
+					}
 
-						.example {
-							font-size: 14px;
-							line-height: 2.21;
-							letter-spacing: 0.56px;
-							text-align: left;
-							color: #666;
-						}
+					.history-description-3 {
+						width: 430px;
+						padding: 0 0 0 30px;
+						font-size: 16px;
+						line-height: 1.31;
+						letter-spacing: 0.64px;
+						text-align: left;
 					}
 				}
 			}
 		}
-	}	
+
+		.expertise-block {
+			width: 488px;
+			height: 225px;
+
+			.title {
+				padding: 0 0 25px;
+				color: #111;
+			}
+
+			.expertise-description {
+				font-size: 14px;
+				line-height: 2.21;
+				letter-spacing: 0.56px;
+				text-align: left;
+				color: #666;
+			}
+		}
+	}
 }

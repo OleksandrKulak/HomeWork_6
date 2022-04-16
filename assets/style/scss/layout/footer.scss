@@ -3,14 +3,11 @@
 
 	.container {
 		padding: 32px 0;
-		background-color: #111111;
-
 
 		.copyright {
-			padding: 0 445px 0 373px;
 			display: flex;
 			height: 17px;
-			width: 1171px;
+			width: 1100px;
 			justify-content: space-between;
 			align-items: center;
 
@@ -23,10 +20,6 @@
 				font-family: "Playfair Display", sans-serif;
 				color: #b5b5b5;
 
-				.c {
-					font-family: "Open Sans", sans-serif;
-				}
-
 				.site {
 					font-family: "Open Sans", sans-serif;
 					color: #fff;
@@ -38,17 +31,11 @@
 				height: 17px;
 				width: 118px;
 				justify-content: space-between;
-				background: url(../../img/socilal-name.png) center / contain no-repeat;
+				color: white;
 
 				.social-logo {
 					width: 16px;
 					height: 16px;
-
-					.logo {
-						width: auto;
-						height: 100%;
-						font-size: 0px;
-					}
 				}
 			}		
 		}
