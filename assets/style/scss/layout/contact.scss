@@ -1,15 +1,10 @@
 .contact {
-	height: 1008px;
-
-	.popover {
-		margin-bottom: 70px;
-	}
 
 	.legend {
 		display: flex;
-		margin-left: 151px;
-		width: 870px;
+		margin: 0 100px 0 151px;
 		height: 490px;
+		gap: 70px;
 		box-shadow: 0 0 50px #faf9f7;
 
 		.send-contact {
@@ -21,15 +16,14 @@
 			.field {
 				margin-bottom: 35px;
 				width: 350px;
+				font-family: "Open Sans", sans-serif;
 				font-size: 14px;
 				font-style: italic;
-				line-height: 2.21;
-				letter-spacing: 0.56px;
-				text-align: left;
+				line-height: 2.2;
+				letter-spacing: 0.6px;
 				border: none;
 				outline: none;
 				border-bottom: 1px solid #b9b9b9;
-				font-family: "Open Sans", sans-serif;
 				color: #b9b9b9;
 			}
 
@@ -40,7 +34,7 @@
 
 		.map {
 			position: relative;
-			margin: 33px 0 0 70px;
+			margin-top: 33px;
 			width: 387px;
 			height: 385px;
 

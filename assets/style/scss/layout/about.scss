@@ -2,83 +2,60 @@
 	background-color: #fff;
 
 	.about-content {
-		padding: 70px 0 0 0;
-		justify-content: space-between;
 		display: flex;
-		margin: 0px 0px 0px 0px;
-		height: 243px;
-		width: 1088px;
+		justify-content: space-between;
+		gap: 60px;
 		font-family: "Open Sans", sans-serif;
 
 		.history-block{
-			width: 560px;
+			width: 55%;
 
 			.title {
-				padding: 0 0 30px;
+				margin-bottom: 30px;
 				color: #111;
 			}
 
-			.history-list {
-				display: block;
+			.history-item {
+				margin-bottom: 42px;
+				display: flex;
+				align-items: center;
+				gap: 48px;
+				color: #111;
 
-				.history-item {
-					display: flex;
-					color: #111;
+				&:last-child {
+					margin-bottom: 0;
+				}
 
-					.year-item {
-						width: 69px;
-						height: 15px;
-						font-size: 21px;
-						font-weight: bold;
-						line-height: 1.48;
-						letter-spacing: 0.84px;
-						text-align: left;
-					}
+				.year-item {
+					display: block;
+					flex-shrink: 0;
+					font-size: 21px;
+					font-weight: bold;
+					line-height: 1.5;
+					letter-spacing: 1px;
+				}
 
-					.history-description-1 {
-						width: 430px;
-						padding: 0 0 40px 30px;
-						font-size: 16px;
-						line-height: 1.31;
-						letter-spacing: 0.64px;
-						text-align: left;
-					}
-
-					.history-description-2 {
-						width: 449px;
-						padding: 0 0 30px 30px;
-						font-size: 16px;
-						line-height: 1.31;
-						letter-spacing: 0.64px;
-						text-align: left;
-					}
-
-					.history-description-3 {
-						width: 430px;
-						padding: 0 0 0 30px;
-						font-size: 16px;
-						line-height: 1.31;
-						letter-spacing: 0.64px;
-						text-align: left;
-					}
+				.history-description {
+					width: 430px;
+					font-size: 16px;
+					line-height: 1.3;
+					letter-spacing: 0.7px;
 				}
 			}
 		}
 
 		.expertise-block {
-			width: 488px;
-			height: 225px;
+			width: 45%;
 
 			.title {
-				padding: 0 0 25px;
+				margin-bottom: 25px;
 				color: #111;
 			}
 
 			.expertise-description {
 				font-size: 14px;
 				line-height: 2.21;
-				letter-spacing: 0.56px;
-				text-align: left;
+				letter-spacing: 0.6px;
 				color: #666;
 			}
 		}

@@ -1,44 +1,41 @@
 .team {
-	height: 746px;
 	background-color: #fff;
-
-	.popover {
-		margin-bottom: 70px;
-	}
 
 	.team-list {
 		display: flex;
 		justify-content: space-between;
+		gap: 30px;
 
-		.cover {
-			width: 270px;
-			height: 300px;
-			margin: 0 auto 29px;
+		.member-item{
+			width: 25%;
 
-			img {
-				width: 100%;
-				height: auto;
+			.cover {
+				height: 300px;
+				margin-bottom: 29px;
+
+				img {
+					width: auto;
+					height: 100%;
+				}
 			}
-		}
 
-		.member-name {
-			margin-bottom: 20px;
-			line-height: 1.71px;
-			letter-spacing: 0.84px;
-			text-align: left;
-			font-weight: 500;
-			font-family: "Playfair Display", sans-serif;
-			font-size: 21px;
-			color: #111;
-		}
+			.member-name {
+				margin-bottom: 20px;
+				font-family: "Playfair Display", sans-serif;
+				font-size: 21px;
+				font-weight: 500;
+				line-height: 1.7px;
+				letter-spacing: 0.85px;
+				color: #111;
+			}
 
-		.member-position {
-			line-height: 1.71;
-			letter-spacing: 0.56px;
-			font-size: 14px;
-			text-align: left;
-			font-family: "Open Sans", sans-serif;
-			color: #666;
+			.member-position {
+				font-family: "Open Sans", sans-serif;
+				font-size: 14px;
+				line-height: 1.7;
+				letter-spacing: 0.6px;
+				color: #666;
+			}
 		}	
 	}
 }

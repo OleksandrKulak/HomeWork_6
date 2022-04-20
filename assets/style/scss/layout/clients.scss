@@ -1,103 +1,79 @@
 .clients{
-	height: 748px;
-	background-color: #111;
+	background: url(../../img/stock_photo.png) center/cover no-repeat, #111;
 
-	.container {
-		background: url(../../img/stock_photo.png) center/cover no-repeat;;
-		background-color: #111;
-	
-		.popover {
+	.reviews {
+		margin-bottom: 75px;
+		display: flex;
+		gap: 100px;
+
+
+		.cover-client {
+			position: relative;
+			width: 35.5%;
+			height: 305px;
+			z-index: 0;
 
 			&:after {
-				color: #fff;
+				content: '';
+				display: block;
+				position: absolute;
+				left: 20px;
+				bottom: -20px;
+				top: 20px;
+				right: -20px;
+				background-color: #e8bf5d;
+				z-index: -1;
 			}
 
-			.title-badge {
-				color: #fff;
-			}
-
-			.description {
-				color: #b9b9b9;
+			img {
+				width: 100%;
+				height: auto;
 			}
 		}
 
-		.reviews {
-			display: flex;
-			margin: 73px 0;
-			width: 1068px;
-			height: 326px;
+		.quote-block {
+			margin-top: 22px;
+			width: 64.5%;
+			opacity: 0.8;
 
-			.cover-client {
+			.info-description {
 				position: relative;
-				width: 370px;
-				height: 306px;
-				z-index: 0;
+				font-family: "Open Sans", sans-serif;
+			  	font-size: 14px;
+				line-height: 2.2;
+				letter-spacing: 0.6px;
+				color: #fff;
 
-				&:after {
-					content: '';
-					display: block;
+				&:before {
+					content: "";
 					position: absolute;
-					left: 20px;
-					bottom: -20px;
-					top: 20px;
-					right: -20px;
-					background-color: #e8bf5d;
-					z-index: -1;
-				}
-
-				img {
-					width: 100%;
-					height: 100%;
+					left: -44px;
+					width: 30px;
+					height: 25px;
+					transform: translateY(-15%);
+					background:no-repeat center/cover url(../../img/invalid-log.png);
 				}
 			}
 
-			.quote-block {
-				display: block;
-				margin: 22px 0 0 98px;
-				width: 605px;
-				opacity: 0.8;
+			.autor {
+				padding: 39px 0;
 
-				.info-description {
-					position: relative;
-				  	font-size: 14px;
-					line-height: 2.21;
-					letter-spacing: 0.56px;
-					text-align: left;
-					font-family: "Open Sans", sans-serif;;
+				.name-client {
+					font-family: "Playfair Display", sans-serif;
+					font-size: 21px;
+					line-height: 1.5;
+					letter-spacing: 0.8px;
 					color: #fff;
-
-					&:before {
-						content: "";
-						position: absolute;
-						left: -44px;
-						width: 30px;
-						height: 25px;
-						transform: translateY(-15%);
-						background:no-repeat center/cover url(../../img/invalid-log.png);
-					}
 				}
 
-				.autor {
-					padding: 39px 0;
-
-					.name-client {
-						font-size: 21px;
-						line-height: 1.48;
-						letter-spacing: 0.84px;
-						font-family: "Playfair Display", sans-serif;
-						color: #fff;
-					}
-
-					.client-position {
-						font-size: 14px;
-						line-height: 1.71;
-					    letter-spacing: 0.56px;
-					    font-family: "Open Sans", sans-serif;
-					    text-align: left;
-					    color: #fff;
-					}
-				}	
-			}
+				.client-position {
+					font-family: "Open Sans", sans-serif;
+					font-size: 14px;
+					line-height: 1.7;
+				    letter-spacing: 0.6px;
+				    color: #fff;
+				}
+			}	
 		}
 	}	
 }

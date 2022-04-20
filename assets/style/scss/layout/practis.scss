@@ -1,91 +1,69 @@
 .practis {
-	height: 748px;
 	background-color: #111;
+
+	.popover {
+		margin-bottom: 100px;
 
 		.title {
 			color: #fff;
 		}
+	}
 
-	.container {
-		background-color: #111;
-
-		.popover {
-
-			&:after {
-				color: #fff;
-			}
-
-			.title-badge {
-				color: #fff;
-			}
-
-			.description {
-				color: #b9b9b9;
-			}
-		}
-
-		.service-block {
-		margin: 0 auto;
-		width: 1007px;
-   	 	height: 355px;
-		padding: 101px 0 0 110px;
+	.service-list {
+		padding-left: 110px;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(2, 1fr);
 		row-gap: 72px;
-    	column-gap: 115px;
-		justify-content: center;
+		column-gap: 115px;
 
-			.service-grid {
-				display: flex;
-				width: 446px;
-				height: 138px;
+		.service-item {
+			display: flex;
+			justify-content: end;
+			gap: 30px;
 
-				img {
-					margin: 8px 0;
-					height: 100%;
-					width: auto;	
-				}
-
-				.logo-service {
-					width: 58px;
-					height: 38px;
-				}
-
-				.logo-labour {
-					width: 42px;
-					height: 42px;
-				}
-
-				.logo-cyber {
-					padding-left: 10px;
-					width: 49px;
-					height: 43px;
-				}
-
-				.logo-estate {
-					width: 42px;
-					height: 33px;
-				}
-
-				.services {
-					margin-left: 28px;
-
-					.title {
-						color: #fff;
-					}
-
-					.service-description {
-						padding: 13px 0 28px;
-						font-size: 14px;
-						line-height: 2.21;
-						letter-spacing: 0.56px;
-					    text-align: left;
-						font-family: "Open Sans", sans-serif;
-						color: #fff;
-					}
-				}	
+			img {
+				height: 100%;
+				width: auto;	
 			}
-		}				
-	}	
+
+			.logo-service {
+				width: 58px;
+				height: 38px;
+			}
+
+			.logo-labour {
+				width: 42px;
+				height: 42px;
+			}
+
+			.logo-cyber {
+				width: 55px;
+				height: 43px;
+			}
+
+			.logo-estate {
+				margin: 0 auto;
+				width: 42px;
+				height: 33px;
+			}
+
+			.services {
+				width: 83%;
+
+				.title {
+					margin-bottom: 28px;
+					color: #fff;
+				}
+
+				.service-description {
+					font-family: "Open Sans", sans-serif;
+					font-size: 14px;
+					line-height: 1.8;
+					letter-spacing: 0.6px;
+					color: #fff;
+				}
+			}	
+		}
+	}					
 }

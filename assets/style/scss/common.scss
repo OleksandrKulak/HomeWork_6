@@ -6,7 +6,7 @@ body {
 }
 
 section {
-	margin: 0 auto;
+	padding: 100px 0;
 }
 
 footer {
@@ -15,74 +15,83 @@ footer {
 
 .container {
 	margin: 0 auto;
-	padding: 81px;
-	width: 1169px;
+	padding: 0 15px;
+	width: 1170px;
 }
 
 .main-btn {
 	display: block;
-	width: 181px;
-	height: 50px;
+	padding: 19px 46px;
+	font-family: "Playfair Display", sans-serif;
 	font-size: 16px;
+	font-weight: bold;
+	line-height: 1;
+	letter-spacing: 0.65px;
+	color: #111;
 	border-radius: 25px;
 	border: none;
-	color: #111;
-	font-weight: bold;
-	background-color: #e8bf5d;
-	line-height: 1.94;
-	letter-spacing: 0.64px;
-	font-family: "Playfair Display", sans-serif;
 	cursor: pointer;
+	background-color: #e8bf5d;
 }
 
-
 .popover {
-	padding: 0 0 0 19px;
+	margin-bottom: 70px;
+	padding-left: 19px;
 	position: relative;
 	height: 105px;
 	width: 783px;
 	border-left: 3px solid #e8bf5d;
 
+	&.popover-othe {
+		&:after {
+			color: #fff;
+		}
+
+		.title-badge {
+			color: #fff;
+		}
+
+		.description {
+			color: #b9b9b9;
+		}
+	}
+
 	&:after{
 		counter-increment: section;
 		content: "0" counter(section) " ";
 		position: absolute;
-		left: 0px;
-		font-size: 194.5px;
-		letter-spacing: 7.78px;
-		line-height: 2.22;
-		text-align: left;
+		left: 0;
+		font-family: "Open Sans", sans-serif;
+		font-size: 195px;
+		letter-spacing: 7.8px;
+		line-height: 2.2;
 		opacity: 0.05;
 		transform: translateY(-65%);
-		font-family: "Open Sans", sans-serif;
 		color: #111;
 	}
 
 	.title-badge {
-		padding: 0 0 19px;
-		font-size: 31px;
-		letter-spacing: 1.24px;
-		text-align: left;
-		font-weight: 500;
+		padding-bottom: 19px;
 		font-family: "Playfair Display", sans-serif;
+		font-size: 31px;
+		font-weight: 500;
+		letter-spacing: 1.2px;
 		color: #111;
 	}
 
 	.description {
-		font-size: 21px;
-		line-height: 1.48;
-		letter-spacing: 0.84px;
-		text-align: left;
 		font-family: "Playfair Display", sans-serif;
+		font-size: 21px;
+		line-height: 1.5;
+		letter-spacing: 0.9px;
 		color: #666;
 	}
 }
 
 .title {
-	line-height: 1.48;
-    letter-spacing: 0.84px;
-	font-size: 21px;
-	text-align: left;
-	font-weight: 500;
 	font-family: "Playfair Display", sans-serif;
+	font-size: 21px;
+	line-height: 1.5;
+    letter-spacing: 0.9px;
+	font-weight: 500;
 }

@@ -1,44 +1,38 @@
 .hero {
-  width: 1920px;
-  height: 840px;
-  background: url(../../img/A.S.big.png) center / cover no-repeat;
+  height: calc(100vh - 117px);
+  background: linear-gradient(0deg, rgba(5,1,1,0.8687850140056023) 2%, rgba(255,255,255,0) 80%), url(../../img/A.S.big.png) center / cover no-repeat;
 
   .container {
-    padding: 0 0 0;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+ .wrapper {
+    padding: 0 40px 40px;
     width: 100%;
-    background: linear-gradient(0deg, rgba(5,1,1,0.8687850140056023) 2%, rgba(255,255,255,0) 80%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-   .wrapper {
-      padding: 615px 0 0 505px;
-      display: flex;
-      width: 1443px;
-      height: 85px;
-
-      .user {
-        padding: 0 16px;
-        display: block;   
-        border-left: 3px solid #e8bf5d;
-        color: #fff;
-   
-        .user-name {
-          font-size: 65px;
-          letter-spacing: 2.6px;
-          line-height: 0.69;
-          font-family: "Playfair Display", sans-serif;
-        }
-
-        .position {
-          letter-spacing: 1.24px;
-          line-height: 1.8;
-          font-size: 31px;
-          font-family: "Open Sans", sans-serif;
-          
-        }
+    .user {
+      padding: 0 16px;
+      border-left: 3px solid #e8bf5d;
+      color: #fff;
+ 
+      .user-name {
+        font-family: "Playfair Display", sans-serif;
+        font-size: 65px;
+        letter-spacing: 2.5px;
+        line-height: 0.7;
       }
 
-      .main-btn {
-        margin: 22px 0 0 327px;
+      .position {
+        font-family: "Open Sans", sans-serif;
+        font-size: 31px;
+        letter-spacing: 1.24px;
+        line-height: 2;
       }
     }
   }
