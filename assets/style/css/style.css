@@ -82,11 +82,10 @@ footer {
   padding: 19px 46px;
   font-family: "Playfair Display", sans-serif;
   font-size: 16px;
-  font-weight: bold;
   line-height: 1;
   letter-spacing: 0.65px;
   color: #111;
-  border-radius: 25px;
+  border-radius: 27px;
   border: none;
   cursor: pointer;
   background-color: #e8bf5d;
@@ -356,8 +355,8 @@ footer {
   margin-bottom: 29px;
 }
 .team .team-list .member-item .cover img {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 .team .team-list .member-item .member-name {
   margin-bottom: 20px;
@@ -411,6 +410,8 @@ footer {
   opacity: 0.8;
 }
 .clients .reviews .quote-block .info-description {
+  display: block;
+  margin-bottom: 39px;
   position: relative;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -427,17 +428,14 @@ footer {
   transform: translateY(-15%);
   background: no-repeat center/cover url(../../img/invalid-log.png);
 }
-.clients .reviews .quote-block .autor {
-  padding: 39px 0;
-}
-.clients .reviews .quote-block .autor .name-client {
+.clients .reviews .quote-block .author .name-client {
   font-family: "Playfair Display", sans-serif;
   font-size: 21px;
   line-height: 1.5;
   letter-spacing: 0.8px;
   color: #fff;
 }
-.clients .reviews .quote-block .autor .client-position {
+.clients .reviews .quote-block .author .client-position {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 1.7;
@@ -459,8 +457,8 @@ footer {
   height: 300px;
 }
 .public .article-block .post-public .cover-public img {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 .public .article-block .post-public .title-public {
   font-family: "Playfair Display", sans-serif;
@@ -469,7 +467,8 @@ footer {
   letter-spacing: 0.9px;
   color: #111;
 }
-.public .article-block .post-public .about-autor {
+.public .article-block .post-public .about-author {
+  display: flex;
   margin-bottom: 38px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -477,12 +476,13 @@ footer {
   letter-spacing: 0.65px;
   color: #111;
 }
-.public .article-block .post-public .about-autor .by {
+.public .article-block .post-public .about-author .by {
   font-style: italic;
   color: #666;
 }
-.public .article-block .post-public .about-autor .date {
-  float: right;
+.public .article-block .post-public .about-author .date {
+  flex-grow: 1;
+  text-align: right;
   font-style: italic;
   color: #666;
 }
@@ -564,7 +564,7 @@ footer {
   margin: 0 100px 0 151px;
   height: 490px;
   gap: 70px;
-  box-shadow: 0 0 50px #faf9f7;
+  box-shadow: 0px 12px 40px 0 rgba(104, 86, 42, 0.1);
 }
 .contact .legend .send-contact {
   display: block;
@@ -587,6 +587,7 @@ footer {
 }
 .contact .legend .send-contact textarea {
   height: 83px;
+  resize: none;
 }
 .contact .legend .map {
   position: relative;
